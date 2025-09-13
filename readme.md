@@ -24,12 +24,11 @@ Este projeto demonstra como criar uma API simples com **ASP.NET Core 9** que:
 ```bash
 dotnet new webapi -n JwtAuthApi
 cd JwtAuthApi
-dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
 ```
 
 ---
 
-## 2. Criando o Projeto
+## 2. Adicionar pacote responsável pelo JWT
 
 ```
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
