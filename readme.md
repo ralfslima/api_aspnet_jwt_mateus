@@ -23,7 +23,6 @@ Este projeto demonstra como criar uma API simples com **ASP.NET Core 9** que:
 
 ```bash
 dotnet new webapi -n JwtAuthApi
-cd JwtAuthApi
 ```
 
 ---
@@ -78,7 +77,7 @@ public class UserModel
 
 ---
 
-## 6. Criar Modelo de Usuário (Models/UserModel.cs)
+## 6. Criar Serviço do Token (Services/TokenService.cs)
 ```
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
